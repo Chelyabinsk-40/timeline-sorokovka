@@ -1,0 +1,10 @@
+# Исключения для личных файлов
+Atomnyi proiekt_Taina __sorokovki.txt
+Тайны сороковки.md
+
+# Общие исключения
+.DS_Store
+*.log
+*.tmp
+*.swp
+*~ 
