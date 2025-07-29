@@ -1,5 +1,6 @@
 Таймлайн по мотивам книги Тайны «сороковки»
 
+Доступен по ссылке: https://chelyabinsk-40.github.io/timeline-sorokovka/
 <img width="750" height="1000" alt="image" src="https://github.com/user-attachments/assets/2105d3f1-12bf-45e3-9609-8eeb394692f9" />
 
 
