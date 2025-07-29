@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Таймлайн "Тайны Сороковки"</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+<body>
+  <div id="timeline-embed" style="width: 100vw; height: 700px"></div>
+  <script>
+    var options = {
+      height: '700',
+      initial_zoom: 2,
+      language: 'ru'
+    }
+    fetch('timeline_data.json').then(r=>r.json()).then(data=>{
+      window.timeline = new TL.Timeline('timeline-embed', data, options);
+    });
+  </script>
+</body>
+</html>
